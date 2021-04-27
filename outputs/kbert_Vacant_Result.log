@@ -1,0 +1,490 @@
+Vocabulary file line 344 has bad format token
+Vocabulary Size:  21128
+[BertClassifier] use visible_matrix: True
+[KnowledgeGraph] Loading spo from /share/nas165/Wendy/Rocling/K-BERT2/K-BERT2-4/brain/kgs/Vacant.spo
+Start training.
+Loading sentences from ./datasets/Taipei_FAQ/train.tsv
+There are 5821 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/5821
+Progress of process 0: 1000/5821
+Progress of process 0: 2000/5821
+Progress of process 0: 3000/5821
+Progress of process 0: 4000/5821
+Progress of process 0: 5000/5821
+Shuffling dataset
+Trans data to tensor.
+input_ids
+label_ids
+mask_ids
+pos_ids
+vms
+Batch size:  8
+The number of training instances: 5821
+Epoch id: 1, Training steps: 100, Avg loss: 4.996
+Epoch id: 1, Training steps: 200, Avg loss: 4.785
+Epoch id: 1, Training steps: 300, Avg loss: 4.571
+Epoch id: 1, Training steps: 400, Avg loss: 4.237
+Epoch id: 1, Training steps: 500, Avg loss: 3.862
+Epoch id: 1, Training steps: 600, Avg loss: 3.507
+Epoch id: 1, Training steps: 700, Avg loss: 3.213
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.1940 (323/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 0,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  0,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ...,  0,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  3]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.2290 (237/1035) 
+Epoch id: 2, Training steps: 100, Avg loss: 3.764
+Epoch id: 2, Training steps: 200, Avg loss: 2.540
+Epoch id: 2, Training steps: 300, Avg loss: 2.339
+Epoch id: 2, Training steps: 400, Avg loss: 2.125
+Epoch id: 2, Training steps: 500, Avg loss: 1.977
+Epoch id: 2, Training steps: 600, Avg loss: 1.772
+Epoch id: 2, Training steps: 700, Avg loss: 1.700
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.3213 (535/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 0,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  0,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 14,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.3961 (410/1035) 
+Epoch id: 3, Training steps: 100, Avg loss: 2.014
+Epoch id: 3, Training steps: 200, Avg loss: 1.336
+Epoch id: 3, Training steps: 300, Avg loss: 1.279
+Epoch id: 3, Training steps: 400, Avg loss: 1.151
+Epoch id: 3, Training steps: 500, Avg loss: 1.064
+Epoch id: 3, Training steps: 600, Avg loss: 0.985
+Epoch id: 3, Training steps: 700, Avg loss: 0.954
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.4787 (797/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 0,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  0,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 13,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.5430 (562/1035) 
+Epoch id: 4, Training steps: 100, Avg loss: 1.161
+Epoch id: 4, Training steps: 200, Avg loss: 0.761
+Epoch id: 4, Training steps: 300, Avg loss: 0.761
+Epoch id: 4, Training steps: 400, Avg loss: 0.701
+Epoch id: 4, Training steps: 500, Avg loss: 0.653
+Epoch id: 4, Training steps: 600, Avg loss: 0.605
+Epoch id: 4, Training steps: 700, Avg loss: 0.582
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5297 (882/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 0,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  0,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 11,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:]
+Acc. (Correct/Total): 0.5971 (618/1035) 
+Epoch id: 5, Training steps: 100, Avg loss: 0.683
+Epoch id: 5, Training steps: 200, Avg loss: 0.466
+Epoch id: 5, Training steps: 300, Avg loss: 0.462
+Epoch id: 5, Training steps: 400, Avg loss: 0.396
+Epoch id: 5, Training steps: 500, Avg loss: 0.373
+Epoch id: 5, Training steps: 600, Avg loss: 0.358
+Epoch id: 5, Training steps: 700, Avg loss: 0.382
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5604 (933/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 0,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  2,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 11,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.6483 (671/1035) 
+Epoch id: 6, Training steps: 100, Avg loss: 0.432
+Epoch id: 6, Training steps: 200, Avg loss: 0.289
+Epoch id: 6, Training steps: 300, Avg loss: 0.280
+Epoch id: 6, Training steps: 400, Avg loss: 0.235
+Epoch id: 6, Training steps: 500, Avg loss: 0.220
+Epoch id: 6, Training steps: 600, Avg loss: 0.229
+Epoch id: 6, Training steps: 700, Avg loss: 0.238
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5832 (971/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 0,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  2,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 12,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 1,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.6715 (695/1035) 
+Epoch id: 7, Training steps: 100, Avg loss: 0.276
+Epoch id: 7, Training steps: 200, Avg loss: 0.170
+Epoch id: 7, Training steps: 300, Avg loss: 0.169
+Epoch id: 7, Training steps: 400, Avg loss: 0.155
+Epoch id: 7, Training steps: 500, Avg loss: 0.130
+Epoch id: 7, Training steps: 600, Avg loss: 0.151
+Epoch id: 7, Training steps: 700, Avg loss: 0.158
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5730 (954/1665) 
+Epoch id: 8, Training steps: 100, Avg loss: 0.157
+Epoch id: 8, Training steps: 200, Avg loss: 0.122
+Epoch id: 8, Training steps: 300, Avg loss: 0.105
+Epoch id: 8, Training steps: 400, Avg loss: 0.090
+Epoch id: 8, Training steps: 500, Avg loss: 0.081
+Epoch id: 8, Training steps: 600, Avg loss: 0.101
+Epoch id: 8, Training steps: 700, Avg loss: 0.104
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5574 (928/1665) 
+Epoch id: 9, Training steps: 100, Avg loss: 0.103
+Epoch id: 9, Training steps: 200, Avg loss: 0.081
+Epoch id: 9, Training steps: 300, Avg loss: 0.062
+Epoch id: 9, Training steps: 400, Avg loss: 0.063
+Epoch id: 9, Training steps: 500, Avg loss: 0.050
+Epoch id: 9, Training steps: 600, Avg loss: 0.073
+Epoch id: 9, Training steps: 700, Avg loss: 0.080
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5886 (980/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 0,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  2,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 13,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.7169 (742/1035) 
+Epoch id: 10, Training steps: 100, Avg loss: 0.067
+Epoch id: 10, Training steps: 200, Avg loss: 0.041
+Epoch id: 10, Training steps: 300, Avg loss: 0.055
+Epoch id: 10, Training steps: 400, Avg loss: 0.049
+Epoch id: 10, Training steps: 500, Avg loss: 0.038
+Epoch id: 10, Training steps: 600, Avg loss: 0.065
+Epoch id: 10, Training steps: 700, Avg loss: 0.043
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5880 (979/1665) 
+Epoch id: 11, Training steps: 100, Avg loss: 0.048
+Epoch id: 11, Training steps: 200, Avg loss: 0.027
+Epoch id: 11, Training steps: 300, Avg loss: 0.033
+Epoch id: 11, Training steps: 400, Avg loss: 0.029
+Epoch id: 11, Training steps: 500, Avg loss: 0.021
+Epoch id: 11, Training steps: 600, Avg loss: 0.043
+Epoch id: 11, Training steps: 700, Avg loss: 0.038
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5898 (982/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 2,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  3,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 13,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.7179 (743/1035) 
+Epoch id: 12, Training steps: 100, Avg loss: 0.030
+Epoch id: 12, Training steps: 200, Avg loss: 0.016
+Epoch id: 12, Training steps: 300, Avg loss: 0.020
+Epoch id: 12, Training steps: 400, Avg loss: 0.021
+Epoch id: 12, Training steps: 500, Avg loss: 0.015
+Epoch id: 12, Training steps: 600, Avg loss: 0.032
+Epoch id: 12, Training steps: 700, Avg loss: 0.031
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5970 (994/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 3,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  3,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 11,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.7208 (746/1035) 
+Epoch id: 13, Training steps: 100, Avg loss: 0.020
+Epoch id: 13, Training steps: 200, Avg loss: 0.015
+Epoch id: 13, Training steps: 300, Avg loss: 0.014
+Epoch id: 13, Training steps: 400, Avg loss: 0.019
+Epoch id: 13, Training steps: 500, Avg loss: 0.011
+Epoch id: 13, Training steps: 600, Avg loss: 0.024
+Epoch id: 13, Training steps: 700, Avg loss: 0.021
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.6012 (1001/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 3,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  3,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 13,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.7217 (747/1035) 
+Epoch id: 14, Training steps: 100, Avg loss: 0.015
+Epoch id: 14, Training steps: 200, Avg loss: 0.010
+Epoch id: 14, Training steps: 300, Avg loss: 0.009
+Epoch id: 14, Training steps: 400, Avg loss: 0.012
+Epoch id: 14, Training steps: 500, Avg loss: 0.009
+Epoch id: 14, Training steps: 600, Avg loss: 0.020
+Epoch id: 14, Training steps: 700, Avg loss: 0.018
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5976 (995/1665) 
+Epoch id: 15, Training steps: 100, Avg loss: 0.011
+Epoch id: 15, Training steps: 200, Avg loss: 0.007
+Epoch id: 15, Training steps: 300, Avg loss: 0.009
+Epoch id: 15, Training steps: 400, Avg loss: 0.009
+Epoch id: 15, Training steps: 500, Avg loss: 0.007
+Epoch id: 15, Training steps: 600, Avg loss: 0.024
+Epoch id: 15, Training steps: 700, Avg loss: 0.014
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.6024 (1003/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 4,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  3,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 12,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.7314 (757/1035) 
+Epoch id: 16, Training steps: 100, Avg loss: 0.009
+Epoch id: 16, Training steps: 200, Avg loss: 0.006
+Epoch id: 16, Training steps: 300, Avg loss: 0.006
+Epoch id: 16, Training steps: 400, Avg loss: 0.006
+Epoch id: 16, Training steps: 500, Avg loss: 0.006
+Epoch id: 16, Training steps: 600, Avg loss: 0.012
+Epoch id: 16, Training steps: 700, Avg loss: 0.011
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5868 (977/1665) 
+Epoch id: 17, Training steps: 100, Avg loss: 0.008
+Epoch id: 17, Training steps: 200, Avg loss: 0.005
+Epoch id: 17, Training steps: 300, Avg loss: 0.005
+Epoch id: 17, Training steps: 400, Avg loss: 0.008
+Epoch id: 17, Training steps: 500, Avg loss: 0.005
+Epoch id: 17, Training steps: 600, Avg loss: 0.014
+Epoch id: 17, Training steps: 700, Avg loss: 0.011
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.6162 (1026/1665) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 3,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  2,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 12,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.7314 (757/1035) 
+Epoch id: 18, Training steps: 100, Avg loss: 0.009
+Epoch id: 18, Training steps: 200, Avg loss: 0.005
+Epoch id: 18, Training steps: 300, Avg loss: 0.005
+Epoch id: 18, Training steps: 400, Avg loss: 0.005
+Epoch id: 18, Training steps: 500, Avg loss: 0.004
+Epoch id: 18, Training steps: 600, Avg loss: 0.009
+Epoch id: 18, Training steps: 700, Avg loss: 0.008
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5946 (990/1665) 
+Epoch id: 19, Training steps: 100, Avg loss: 0.006
+Epoch id: 19, Training steps: 200, Avg loss: 0.004
+Epoch id: 19, Training steps: 300, Avg loss: 0.004
+Epoch id: 19, Training steps: 400, Avg loss: 0.005
+Epoch id: 19, Training steps: 500, Avg loss: 0.004
+Epoch id: 19, Training steps: 600, Avg loss: 0.007
+Epoch id: 19, Training steps: 700, Avg loss: 0.007
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5928 (987/1665) 
+Epoch id: 20, Training steps: 100, Avg loss: 0.006
+Epoch id: 20, Training steps: 200, Avg loss: 0.004
+Epoch id: 20, Training steps: 300, Avg loss: 0.004
+Epoch id: 20, Training steps: 400, Avg loss: 0.005
+Epoch id: 20, Training steps: 500, Avg loss: 0.004
+Epoch id: 20, Training steps: 600, Avg loss: 0.006
+Epoch id: 20, Training steps: 700, Avg loss: 0.005
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/Taipei_FAQ/dev.tsv
+There are 1665 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1665
+Progress of process 0: 1000/1665
+Acc. (Correct/Total): 0.5958 (992/1665) 
+Final evaluation on the test dataset.
+Loading sentences from ./datasets/Taipei_FAQ/test.tsv
+There are 1035 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/1035
+Progress of process 0: 1000/1035
+The number of evaluation instances:  1035
+Confusion matrix:
+tensor([[ 3,  0,  0,  ...,  0,  0,  0],
+        [ 0,  1,  0,  ...,  0,  0,  0],
+        [ 0,  0,  2,  ...,  0,  0,  0],
+        ...,
+        [ 0,  0,  0,  ..., 12,  0,  0],
+        [ 0,  0,  0,  ...,  0, 23,  0],
+        [ 0,  0,  0,  ...,  0,  0,  4]])
+Report precision, recall, and f1:
+Acc. (Correct/Total): 0.7314 (757/1035) 
